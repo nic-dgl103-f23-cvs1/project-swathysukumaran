@@ -167,3 +167,20 @@ input[type="submit"] {
 .step{
     margin: 60px 10px;
 }
+
+/* services */
+.services {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.service {
+    width: 50%;
+    margin: 20px;
+    padding: 20px;
+   background-color: aliceblue;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
