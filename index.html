@@ -22,27 +22,88 @@
         <a class="toggle" onclick="showNav()"><i class="fa fa-bars" aria-hidden="true"></i></a>
         <ul id="nav-items">
             <li>
-                how it works
+               <a href="">how it works</a> 
             </li>
             <li>
-                features
+               <a href="">features</a> 
             </li>
             <li>
-                press
+                <a href="">press</a>
             </li>
             <li>
-                pricing
+               <a href="">pricing</a> 
             </li>
             <li id="login">
-                login
+                <a href="">login</a>
             </li>
         </ul>
     </nav>
 </header>
 <main>
+
+    <!-- Parts of code from responsive layout assignment -->
+<section class="hero">
+    <div class="hero-content">
+        <h1>
+            Welcome to your new wireframe kit
+        </h1>
+        <p>If you’re looking for the latest in wireless headphones, look no further. These are perfect for TV, stereo,
+            home, and
+            cell phone.</p>
+        <a href="" class="button">start now</a>
+        <a href="" class="link">Watch more</a>
+    </div>
+
+    <form action="" method="post">
+    
+        <!-- Text Input -->
+        <label for="full_name">Full Name:</label>
+        <input type="text" id="full_name" name="full_name" required>
+    
+        <br>
+    
+        <!-- Radio Buttons -->
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male" checked>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label>
+    
+        <br>
+    
+        <!-- Dropdown Menu -->
+        <label for="age_group">Age Group:</label>
+        <select id="age_group" name="age_group" required>
+            <option value="below14">Below 14</option>
+            <option value="15_35">15-35</option>
+            <option value="35-60">35-60</option>
+            <option value="Above 60">Above 60</option>
+        </select>
+    
+        <br>
+    
+        <!-- Text Area -->
+        <label for="additional_info">Additional Information:</label>
+        <textarea id="additional_info" name="additional_info" rows="4" cols="50"></textarea>
+    
+        <br>
+    
+        <!-- Submit Button -->
+        <input type="submit" value="Submit">
+    
+    </form>
+
+</section>
+
+
     
 </main>
+<footer>
 
+
+</footer>
 
 
 <script>
