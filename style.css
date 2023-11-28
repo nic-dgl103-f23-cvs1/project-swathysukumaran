@@ -101,9 +101,6 @@ nav ul li a {
 
 }
 
-.hero form{
-    width: 100%
-}
 
 .hero p {
 
@@ -118,7 +115,7 @@ nav ul li a {
 
 
 form {
-    max-width: 400px;
+   
     margin: auto;
     background-color: #fff;
     padding: 20px;
@@ -142,7 +139,7 @@ textarea {
     border: 1px solid #ccc;
     border-radius: 4px;
 }
-
+/* MDN webdocs reference */
 input[type="radio"] {
     margin-right: 5px;
 }
@@ -161,6 +158,12 @@ input[type="submit"] {
     font-size: 16px;
 }
 
-input[type="submit"]:hover {
-    background-color: #45a049;
+/* How it works */
+
+.HIW{
+    width:70%;
+    margin: auto;
+}
+.step{
+    margin: 60px 10px;
 }
