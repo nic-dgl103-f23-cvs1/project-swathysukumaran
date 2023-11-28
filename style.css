@@ -184,3 +184,44 @@ input[type="submit"] {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
 }
+
+/* footer */
+ footer {
+     text-align: center;
+     background-color: #333;
+     color: #fff;
+     padding: 10px;
+ }
+
+ footer p {
+     font-size: 14px;
+     line-height: 1.5;
+     margin: 0;
+ }
+
+
+ /* ************************CONTACT PAGE******************************/
+
+.contactus{
+    max-width: 600px;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+  .contact-info {
+      margin-bottom: 20px;
+  }
+
+  .contact-info p {
+      margin: 5px 0;
+  }
+
+  .main-office {
+      margin-top: 20px;
+  }
+
+  .email-form {
+      margin-top: 20px;
+  }

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us Page</title>
+    <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Assistant&family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+    <div class="head_logo">
+        <h2 class="logo_name">Comox valley lifeline society</h2>
+        <p class="tagline">"Help At The Push Of A Button"</p>
+    </div>
+    
+    <nav>
+        <a class="toggle" onclick="showNav()"><i class="fa fa-bars" aria-hidden="true"></i></a>
+        <ul id="nav-items">
+            <li>
+               <a href="">home</a> 
+            </li>
+            <li>
+               <a href="">features</a> 
+            </li>
+            <li>
+                <a href="">Contact Us</a>
+            </li>
+            
+        </ul>
+    </nav>
+
+</header>
+<main>
+
+    <section class="contactus">
+    <div class="contact-info">
+      <h2>Community Office Phone numbers</h2>
+      <p>Cowichan Valley Lifeline........................(250) 746 - 0814</p>
+      <p>Chemainus-Crofton Lifeline....................(250) 246 - 3883</p>
+      <p>Sunshine Coast Lifeline..........................(604) 885 - 9501</p>
+      <p>Comox Valley Lifeline.............................(250) 338 - 4255</p>
+      <p>Campbell River Lifeline...........................(250) 286 - 4888</p>
+      <p>Vancouver Island North Dial Toll Free....1- 866 - 205 - 6160</p>
+      <p>Fax Number For All Areas......................(250) 338 - 4922</p>
+    </div>
+
+    <div class="main-office">
+      <h2>Our Main Office Location</h2>
+     <address>
+        Comox Valley Lifeline Society<br>
+        392 - 10th Street<br>
+        Courtenay, BC V9N 1P5<br>
+        Administration Office Hours: Monday to Friday, 9:00AM to 5:00PM<br>
+        Closed on Holidays<br>
+        Phone: (250) 338 - 4255<br>
+        Fax: (250) 338 - 4922<br>
+      </address>
+    </div>
+
+    <div class="email-form">
+      <h2>By Email</h2>
+      <p>Use the form below for questions about Comox Valley Lifeline services. Our Area Coordinator will respond within one business day. Your information is confidential and never shared.</p>
+
+      <form action="" method="post">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="comments">Comments:</label>
+        <textarea id="comments" name="comments" rows="4" required></textarea>
+
+        <input type="submit" value="Submit Form">
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<script>
+    function showNav() {
+        var element = document.getElementById("nav-items");
+        element.classList.toggle("show-items");
+    }
+</script>
+</body>
+</html>
