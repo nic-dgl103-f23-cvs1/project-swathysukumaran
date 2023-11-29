@@ -154,6 +154,12 @@ form h2{
     text-align: center;
 }
 
+/* about */
+
+.about{
+    padding:40px;
+}
+
 /* How it works */
 
 .HIW{
@@ -170,17 +176,26 @@ form h2{
  }
 /* services */
 
-
+.services{
+    padding: 40px;
+}
+ .servicesWrapper a {
+     text-decoration: none;
+ }
 .service {
-    /* width: 50%;
-    margin: 20px;*/
+    display: flex;
+    flex-direction: column;
     padding: 30px; 
    background-color: aliceblue;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
+    margin:30px 0px;
 }
-
+ .smImages {
+     width: 80px;
+     margin:auto ;
+ }
 .device1{
     padding: 20px;
     margin-bottom: 20px;
@@ -288,6 +303,7 @@ form h2{
         width:1170px;
         margin: auto;
         padding-top: 70px;
+        
        
     }
     .aboutContent{
@@ -324,12 +340,8 @@ form h2{
         justify-content: space-between;
         gap:50px;
     }
-    .servicesWrapper a{
-        text-decoration: none;
-    }
-    .smImages{
-        width: 80px;
-    }
+   
+   
     /* services page */
     .services_Wrapper{
         width:1170px;
