@@ -1,7 +1,7 @@
 /* GENERAL */
 html {
     font-size: 62.5%;
-    font-family: 'Assistant', sans-serif;
+   
 
 }
 
@@ -9,6 +9,7 @@ body{
     font-size: 1.6rem;
     margin: 0px;
     color: #293241;
+    font-family: 'Poppins', sans-serif;
 }
 
 main{
