@@ -26,14 +26,7 @@ h1 {
     color: #FFFFFF;
     font-size: 3.8rem;
     margin: 0px;
-    font-weight: 700;
-
-}
-
-h2{
-   
-    font-weight: 700;
-}
+   }
 
 
 /* HEADER */
@@ -193,6 +186,12 @@ form h2{
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
+}
+
+.device1{
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 /* footer */
