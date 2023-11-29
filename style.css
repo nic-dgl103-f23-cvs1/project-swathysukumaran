@@ -169,16 +169,12 @@ form h2{
      border: none;
  }
 /* services */
-.services {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
+
 
 .service {
-    width: 50%;
-    margin: 20px;
-    padding: 20px;
+    /* width: 50%;
+    margin: 20px;*/
+    padding: 30px; 
    background-color: aliceblue;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -197,6 +193,7 @@ form h2{
      background-color: #333;
      color: #fff;
      padding: 10px;
+     margin-top: 80px;
  }
 
  footer p {
@@ -317,5 +314,20 @@ form h2{
     }
     ol li img{
         width:45%;
+    }
+    .services{
+        width:1170px;
+        margin: auto;
+    }
+    .servicesWrapper{
+        display: flex;
+        justify-content: space-between;
+        gap:50px;
+    }
+    .servicesWrapper a{
+        text-decoration: none;
+    }
+    .smImages{
+        width: 80px;
     }
 }
