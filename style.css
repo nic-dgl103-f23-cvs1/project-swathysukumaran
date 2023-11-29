@@ -8,7 +8,7 @@ html {
 body{
     font-size: 1.6rem;
     margin: 0px;
-    color: #293241;
+    color: #333333;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -16,10 +16,14 @@ main{
     margin: auto;
    text-align: center;
 }
-
+h1,h2,h3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color:#FF6347;
+}
 h1 {
 
-    color: #505D68;
+    color: #333333;
     font-size: 3.8rem;
     margin: 0px;
     font-weight: 700;
@@ -27,7 +31,7 @@ h1 {
 }
 
 h2{
-    font-family: 'Open Sans', sans-serif;
+   
     font-weight: 700;
 }
 
@@ -36,14 +40,14 @@ h2{
 /* From codepen */
 header {
 
-    background-color: #e0fbfc;
+    background-color: #FDF5E6;
     margin: 0px;
     border-radius: 3px;
     padding: 20px 20px;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    color:#3d5a80;
+    color:#FF6347;
 }
 
 nav {
@@ -88,10 +92,11 @@ nav ul li a {
 }
 .logo_name{
     font-size: 1.4rem;
-    color: #3d5a80;
+    
 }
 .tagline{
     font-size: 1.0rem;
+    color:#333333;
 }
 
 /* hero */
@@ -201,6 +206,25 @@ input[type="submit"] {
  }
 
 
+ /* ************************SERVICES PAGE *****************************/
+
+
+ table {
+     width: 100%;
+     border-collapse: collapse;
+     margin-top: 20px;
+ }
+
+ th,
+ td {
+     border: 1px solid #ddd;
+     padding: 8px;
+     text-align: left;
+ }
+
+ th {
+     background-color: #f2f2f2;
+ }
  /* ************************CONTACT PAGE******************************/
 
 .contactus{
@@ -226,3 +250,4 @@ input[type="submit"] {
   .email-form {
       margin-top: 20px;
   }
+
