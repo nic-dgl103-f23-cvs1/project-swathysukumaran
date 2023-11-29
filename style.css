@@ -330,4 +330,29 @@ form h2{
     .smImages{
         width: 80px;
     }
+    /* services page */
+    .services_Wrapper{
+        width:1170px;
+        margin:auto;
+        padding-top: 80px;
+    }
+
+    .devices{
+        display: flex;
+        flex-direction: column;
+        align-items: space-between;
+        gap:50px;
+    }
+    .devicesRow{
+        display: flex;
+        justify-content: space-between;
+        gap: 50px;
+    }
+    .device1{
+        width: 50%;
+    }
+    .serviceImg{
+        text-align: center;
+    }
+   
 }
