@@ -300,4 +300,22 @@ form h2{
     .why{
         width: 50%;
     }
+    .HIW{
+        width:1170px;
+        margin: auto;
+        padding-top: 50px;
+    }
+    ol{
+        display: flex;
+        justify-content: space-between;
+        gap:30px;
+    }
+    ol li{
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        padding: 30px;
+        text-align:center;
+    }
+    ol li img{
+        width:45%;
+    }
 }
