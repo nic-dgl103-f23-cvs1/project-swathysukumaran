@@ -405,15 +405,11 @@ video{
 
     .devices{
         display: flex;
-        flex-direction: column;
-        align-items: space-between;
+      
+        justify-content: space-between;
         gap:50px;
     }
-    .devicesRow{
-        display: flex;
-        justify-content: space-between;
-        gap: 50px;
-    }
+   
     .device1{
         width: 50%;
     }
