@@ -28,7 +28,12 @@ h1 {
     margin: 0px;
    }
 h2{
-    font-size: 3.0rem;
+    font-size: 2.6rem;
+}
+.subH1{
+    color: #FF6347;
+    font-size:3.0rem;
+    margin-bottom: 20px;
 }
 p{
     text-align: justify;
@@ -300,7 +305,7 @@ video{
         font-size: 5.0rem;
     }
     h2{
-        font-size: 3.8rem;
+        font-size: 3.0rem;
     }
     header{
         padding: 20px 60px;
