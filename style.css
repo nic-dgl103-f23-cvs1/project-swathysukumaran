@@ -191,7 +191,7 @@ form h2{
 
 video{
     max-width: 100%;
-        margin: 30% 10%;
+    margin:20px 40px; 
 }
 
 /* How it works */
@@ -375,7 +375,7 @@ video{
     .HIW{
         width:1170px;
         margin: auto;
-        padding-top: 50px;
+       
     }
     ol{
         display: flex;
