@@ -19,7 +19,7 @@ main{
 h1,h2,h3{
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
-    color:#FF6347;
+    color:#a41900;
 }
 h1 {
 
@@ -31,7 +31,7 @@ h2{
     font-size: 2.6rem;
 }
 .subH1{
-    color: #FF6347;
+    color: #a41900;
     font-size:3.0rem;
     margin-bottom: 20px;
 }
@@ -51,7 +51,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    color:#FF6347;
+    color:#a41900;
 }
 
 nav {
@@ -88,7 +88,7 @@ nav ul li a {
     color: #505D68;
 }
 nav ul li a:hover{
-    color: #FF6347;
+    color: #a41900;
 }
 
 .toggle {
@@ -240,7 +240,9 @@ video{
 .serviceImg {
     text-align: center;
 }
-
+ol li img {
+    width: 45%;
+}
 /* footer */
  footer {
      text-align: center;
@@ -351,7 +353,7 @@ video{
          nav {
              padding-top: 0;
              margin-left: 100px;
-             color: #FF6347;
+             color: #a41900;
          }
     
          nav .toggle {
