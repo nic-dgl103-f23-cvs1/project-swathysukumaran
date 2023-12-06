@@ -358,7 +358,7 @@ video{
              display: none;
          }
     
-         .nav-items {
+         #nav-items {
              display: flex;
              flex-direction: row;
              gap: 40px;
