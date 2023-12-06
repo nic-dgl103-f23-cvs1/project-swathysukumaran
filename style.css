@@ -36,7 +36,7 @@ h2{
     margin-bottom: 20px;
 }
 p{
-    text-align: justify;
+    text-align: left;
 }
 
 /* HEADER */
@@ -191,7 +191,7 @@ form h2{
 
 video{
     max-width: 100%;
-    margin:20px 40px; 
+
 }
 
 /* How it works */
@@ -206,7 +206,9 @@ video{
 
  iframe {
      width: 100%;
+     height: 250px;
      border: none;
+     margin: 25px;
  }
 /* services */
 
@@ -235,6 +237,9 @@ video{
     margin-bottom: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+.serviceImg {
+    text-align: center;
+}
 
 /* footer */
  footer {
@@ -250,6 +255,18 @@ video{
      line-height: 1.5;
      margin: 0;
  }
+
+
+ .footer1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap:50px;
+ }
+.footer-about{
+    padding: 35px;
+}
 
 
  /* ************************SERVICES PAGE *****************************/
@@ -274,7 +291,24 @@ video{
      background-color: #f2f2f2;
  }
  /* ************************CONTACT PAGE******************************/
+.title-container {
+    position: relative;
+    text-align: center;
+    color: #fff;
+    padding: 100px 0;
+    background: url('images/cover2.jpg') center/cover no-repeat;
 
+}
+.title-container-service{
+    background: url('images/cover1.jpg') bottom/cover no-repeat;
+}
+
+.title-text {
+    font-size: 2em;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    
+}
 .contactus{
     
     margin: auto;
@@ -298,6 +332,8 @@ video{
   .email-form {
       margin-top: 20px;
   }
+
+
 
 /* desktop view */
 @media only screen and (min-width: 1200px) {
@@ -418,9 +454,7 @@ video{
     .device1{
         width: 50%;
     }
-    .serviceImg{
-        text-align: center;
-    }
+    
    .cost{
     width:1170px;
     margin:auto;
@@ -440,5 +474,11 @@ video{
     width: 50%;
     padding:50px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   }
+   .footer1{
+    flex-direction: row;
+   }
+   iframe{
+    width: 50%;
    }
 }
