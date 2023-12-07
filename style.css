@@ -260,7 +260,11 @@ ol li img {
      margin: 0;
  }
 
-
+ footer h2{
+    color: #fff;
+    font-size: 4.0px;
+    margin-bottom: 30px;
+ }
  .footer1{
     display: flex;
     flex-direction: column;
@@ -272,6 +276,9 @@ ol li img {
     padding: 35px;
 }
 
+.footer-about p{
+    margin-top: 30px;
+}
 
  /* ************************SERVICES PAGE *****************************/
 
