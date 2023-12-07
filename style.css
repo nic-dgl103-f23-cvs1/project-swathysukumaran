@@ -242,6 +242,9 @@ video{
 .serviceImg {
     text-align: center;
 }
+.serviceImg img{
+    width: 40%;
+}
 ol li img {
     width: 45%;
 }
