@@ -23,7 +23,7 @@ h1,h2,h3{
 }
 h1 {
 
-    color: #FFFFFF;
+    color: #a41900;
     font-size: 3.8rem;
     margin: 0px;
    }
@@ -121,9 +121,10 @@ nav ul li a:hover{
 
 
 .hero p {
-    color:#e92300 ;
+    color:#07cca1 ;
     margin-top: 35px;
     font-weight: 700;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 .hero-content{
     background-image:url(images/cover.jpg);
