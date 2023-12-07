@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us Page</title>
+    <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+    <div class="head_logo">
+        <h2 class="logo_name">Comox valley lifeline society</h2>
+        <p class="tagline">"Help At The Push Of A Button"</p>
+    </div>
+    
+    <nav>
+        <a class="toggle" onclick="showNav()"><i class="fa fa-bars" aria-hidden="true"></i></a>
+        <ul id="nav-items">
+            <li>
+               <a href="index.html">home</a> 
+            </li>
+            <li>
+               <a href="services.html">Services</a> 
+            </li>
+            <li>
+                <a href="contact.html">Contact Us</a>
+            </li>
+            
+        </ul>
+    </nav>
+
+</header>
+<main>
+    <section class="title-container">
+      <h1 class="title-text">Contact Us</h1>
+    </section>
+    <section class="contactus">
+     
+        
+        <div class="contactContainer">
+          <div class="contactDetails">
+            <div class="contact-info">
+              
+              <h2>Community Office Phone numbers</h2>
+              <a href="tel:+12507460814">Cowichan Valley lifeline : (250) 746 - 0814</a><br>
+              <a href="tel:+12502463883">Chemainus-Crofton Lifeline : (250) 246 - 3883</a><br>
+              <a href="tel:+16048859501">Sunshine Coast Lifeline : (604) 885 - 9501</a><br>
+              <a href="tel:+12503384255">Comox Valley Lifeline : (250) 338 - 4255</a><br>
+              <a href="tel:+12502864888">Campbell River Lifeline : (250) 286 - 4888</a><br>
+              <a href="tel:+18662056160">Vancouver Island North Dial Toll Free : 1- 866 - 205 - 6160</a><br>
+              <a href="tel:+2503384922">Fax Number For All Areas : (250) 338 - 4922</a>
+            </div>
+            
+            <div class="main-office">
+              <h2>Our Main Office Location</h2>
+              <address>
+                Comox Valley Lifeline Society<br>
+                392 - 10th Street<br>
+                Courtenay, BC V9N 1P5<br>
+                Administration Office Hours: Monday to Friday, 9:00AM to 5:00PM<br>
+                Closed on Holidays<br>
+                <a href="tel:+12507460814">Phone: (250) 338 - 4255</a><br>
+                Fax: (250) 338 - 4922<br>
+              </address>
+            </div>
+          </div>
+          
+          
+          <div class="email-form">
+            <h2>By Email</h2>
+            <p>Use the form below for questions about Comox Valley Lifeline services. Our Area Coordinator will respond within one
+              business day. Your information is confidential and never shared.</p>
+          
+            <form action="example.php" method="post">
+              <label for="name">Your Name:</label>
+              <input type="text" id="name" name="name" required>
+          
+              <label for="email">Your Email:</label>
+              <input type="email" id="email" name="email" required>
+          
+              <label for="comments">Comments:</label>
+              <textarea id="comments" name="comments" rows="4" required></textarea>
+          
+              <input type="submit" value="Submit Form">
+            </form>
+          </div>
+
+        </div>
+        
+  </section>
+
+</main>
+<footer>
+  <section class="footer1">
+    <div class="footer-about">
+      <h2 class="logo_name">Comox valley lifeline society</h2>
+      <p>Lifeline ensures independence and safety, empowering individuals to confidently live at home with help just a
+        button
+        press away. It's more than an emergency response system; it's peace of mind for you and your loved ones. Lorem
+        ipsum dolor, sit amet consectetur adipisicing elit. Hic tempora quam rem quo tenetur fugiat. Aliquam autem
+        suscipit perspiciatis, unde mollitia repudiandae molestias quam magni.</p>
+    </div>
+
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2581.235971488404!2d-124.99949592364356!3d49.687528971456544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5488147593f58011%3A0xa57af17e80199166!2sComox%20Valley%20Lifeline%20Society!5e0!3m2!1sen!2sca!4v1701897941062!5m2!1sen!2sca"
+      style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </section>
+  <p>This is a fictional website designed and coded for educational purposes. Not intended for external use. Content and
+    images were not approved by the business owner.</p>
+</footer>
+
+<script>
+    function showNav() {
+        var element = document.getElementById("nav-items");
+        element.classList.toggle("show-items");
+    }
+</script>
+</body>
+</html>
