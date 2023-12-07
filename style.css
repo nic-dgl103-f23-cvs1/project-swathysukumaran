@@ -162,7 +162,7 @@ textarea {
 }
 
 input[type="submit"]{
-    background-color: #4CAF50;
+    background-color: #012d03;
     font-weight: 700;
     padding: 10px;
     color: white;
@@ -177,8 +177,8 @@ input[type="submit"]{
 }
 input[type="submit"]:hover{
     background-color: #FFFFFF;
-    color: #4CAF50;
-    border: 1px solid #4CAF50;
+    color: #012d03;
+    border: 1px solid #012d03;
     
 }
 form h2{
